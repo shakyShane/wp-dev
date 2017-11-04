@@ -1,0 +1,5 @@
+tasks:
+  build: >
+    @sh docker build -t shakyshane/wp-dev .
+  push: >
+    @sh docker push shakyshane/wp-dev
